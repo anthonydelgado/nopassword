@@ -1,4 +1,4 @@
-# No Password
+# noPassword
 ## Forget your password.
 
 
@@ -24,8 +24,6 @@ Working in teams we're constantly creating new API tokens and dummy accounts for
 The backend was built in JavaScript and nodeJS, and the frontend was built with Materialize, HTML/CSS, and Javascript. We utilized the Twilio and Slack APIs.
 
 
-
-
 ##Challenges we ran into:
 We tried to figure out how to host on AWS, but couldn't figure out the deployment. We decided to host on Heroku.
 
@@ -39,21 +37,4 @@ Figuring out how to call the Slack API to return the correct information, as wel
 ##What’s next for noPassword:
 We plan on building out a secure database to encrypt the data shared by users.
 
-##Built With:
 
-Materialize
-
-JavaScript
-
-nodeJS
-
-BotKit
-
-Slack API
-
-
-##Try it out:
-
-nopassword.herokuapp.com
-
-https://github.com/anthonydelgado/nopassword
