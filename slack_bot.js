@@ -236,6 +236,16 @@ controller.hears(['(.*)api(.*)facebook(.*)', '(.*)facebook(.*)api(.*)', '(.*)key
 
     });
 
+controller.hears(['(.*)api(.*)slack(.*)', '(.*)slack(.*)api(.*)', '(.*)key(.*)slack(.*)', '(.*)slack(.*)key(.*)'],
+    'direct_message,direct_mention', function(bot, message) {
+
+        bot.reply(message,
+            ':key: 107640643-8NfAoewLnCMRYxUkM');
+        bot.reply(message,
+            'Who needs @slackbot when you have me?');
+
+    });
+
 //
 
 

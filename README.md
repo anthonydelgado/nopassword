@@ -15,29 +15,29 @@
 ***
 
 ##Inspiration:
-We can never remember our passwords or API tokens. There should be an easier way.
+Working in teams we're constantly creating new API tokens and dummy accounts for new software trial services. We kept Slacking out the keys, but knew there had to be an easier way.
 
 ##What it does:
-Removes the need to remember a secure password. Via SMS and Slack, the noPassword bot will be at your service. Through conversation noPassword will recommend secure logins, save team keys, and make you smile.
+ noPassword removes the need to remember a secure password or an API key. Via Twilio and Slack, the noPassword bot will be at your service. Through conversation noPassword will recommend secure logins, save team keys, and be a major key alert.
 
 ##How we built it:
-The backend was built in JavaScript and nodeJS, and the frontend was built with Materialize, HTML/CSS, and Javascript.
+The backend was built in JavaScript and nodeJS, and the frontend was built with Materialize, HTML/CSS, and Javascript. We utilized the Twilio and Slack APIs.
 
 
 
 
 ##Challenges we ran into:
-
+We tried to figure out how to host on AWS, but couldn't figure out the deployment. We decided to host on Heroku.
 
 
 ##Accomplishments that we’re proud of:
-
+We divided the project into multiple microservices using API endpoints.
 
 ##What we learned:
-
+Figuring out how to call the Slack API to return the correct information, as well as figuring out how the Twilio API can text us via SMS was difficult, but so rewarding.
 
 ##What’s next for noPassword:
-
+We plan on building out a secure database to encrypt the data shared by users.
 
 ##Built With:
 
